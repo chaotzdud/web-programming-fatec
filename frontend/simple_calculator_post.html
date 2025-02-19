@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator GET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Simple Calculator - GET</h1>
+        
+        <form action="../backend/simple_calculator_post.php" method="POST">
+            <label for="number1">Number 1</label> 
+            <input id="number1" name="number1" type="text" required> <br>
+
+            <label for="number2">Number 2</label> 
+            <input id="number2" name="number2" type="text" required> <br>
+
+            <input name="calculate" type="submit" value="Calculate">
+        </form>
+    </center>
+</body>
+</html>
