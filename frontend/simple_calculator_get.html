@@ -8,11 +8,17 @@
 </head>
 <body>
     <center>
-    <h1>Simple Calculator - GET</h1>
-    <form action="../backend/simple_calculator_get.php" method="GET">
-        Number 1: <input name="number1" type="text"> <br>
-        Number 2: <input name="number2" type="text"> <br>
-        <input name="calculate" type="submit">
-    </form>
+        <h1>Simple Calculator - GET</h1>
+        
+        <form action="../backend/simple_calculator_get.php" method="GET">
+            <label for="number1">Number 1</label> 
+            <input id="number1" name="number1" type="text" required> <br>
+
+            <label for="number2">Number 2</label> 
+            <input id="number2" name="number2" type="text" required> <br>
+
+            <input name="calculate" type="submit" value="Calculate">
+        </form>
+    </center>
 </body>
 </html>
